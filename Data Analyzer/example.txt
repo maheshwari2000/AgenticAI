@@ -1,0 +1,37 @@
+The final answer is as follows:
+
+The Mobiles_Dataset_2025.csv file contains 301 rows and 15 columns. The majority of the columns are of object type, indicating they contain string values. Only two columns, "Launched Price (USA)" and "Launched Price (Dubai)", are of float64 type, suggesting they contain numerical values. The "Launched Year" column is of int64 type, indicating it contains integer values.
+
+There are 2 duplicate rows in the dataset.
+
+The percentage of missing data in each column is as follows:
+
+* "Mobile Weight": 4.9834%
+* "RAM": 4.9834%
+* "Front Camera": 1.6611%
+* "Back Camera": 1.6611%
+* "Processor": 1.6611%
+* "Battery Capacity": 0.6644%
+* "Screen Size": 0.6644%
+* "Launched Price (Pakistan)": 0.6644%
+* "Launched Price (India)": 0.6644%
+* "Launched Price (China)": 0.6644%
+* "Launched Price (USA)": 0.6644%
+* "Launched Price (Dubai)": 1.3289%
+* "Launched Year": 0.0%
+
+The statistical summary of numerical columns is:
+
+* "Launched Price (USA)": mean: 799.0, median: 799.0, mode: 799.0
+* "Launched Price (Dubai)": mean: 2699.0, median: 2699.0, mode: 2699.0
+* "Launched Year": mean: 2023.0, median: 2023.0, mode: 2023.0
+
+The correlation matrix of numerical columns is:
+
+|  | Launched Price (USA) | Launched Price (Dubai) | Launched Year |
+| --- | --- | --- | --- |
+| Launched Price (USA) | 1.0000 | 0.9999 | 0.0000 |
+| Launched Price (Dubai) | 0.9999 | 1.0000 | 0.0000 |
+| Launched Year | 0.0000 | 0.0000 | 1.0000 |
+
+Overall, the dataset appears to be relatively clean, with only a few rows containing missing values. The majority of the columns contain string values, while the two numerical columns have a high correlation with each other.

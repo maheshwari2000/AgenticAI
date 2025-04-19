@@ -1,0 +1,9 @@
+langchain
+langchain-community
+gradio
+gradio_client
+groq
+pydantic==2.10.6
+pydantic-settings==2.8.1
+pydantic_core==2.27.2
+pandas
